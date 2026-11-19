@@ -10,7 +10,6 @@ The current source code is organized around these components:
 - **Python backend (`server.py`)** – receives images, detects faces, reads text that may represent a license plate using EasyOCR, checks the plate against an allowlist, records each decision in a CSV file, and emits an event to the web dashboard using Flask-SocketIO.
 - **Dashboard styling (`style.css`)** – provides a dark, responsive card-based interface.
 
-> **Important:** This README describes the behavior present in the supplied source files. The dashboard template (`templates/dashboard.html`) was referenced by the backend but was not included with the supplied files.
 
 ## Features in the supplied code
 
